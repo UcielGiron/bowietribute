@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;300&display=swap');
+/*Colores de paleta
+#f4d954
+#9cc1de
+#e21c11
+#3d2c3f
+#161415
+#78DEC7
+-------Fonts---------
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+*/
+html{
+    font-size: 10px;
+}
+
+body{
+    background: #3692b7 ;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    display: block;
+    text-align: center;
+    }
+
+#title{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    transform: rotate(-5deg); 
+}
+#title::before{
+    content: "";
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: 30%;
+    background: rgba(229, 57, 53, 100);
+    z-index: -1;
+}
+#title:hover{
+    transform: scale(1.5);
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.divtitles{
+    display: flex;
+    justify-content: center;
+}
+
+#img-caption{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+
+#tribute-info{
+    background-color: #f97f8c ;
+    width:auto;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tribute-info p{
+    padding: 10px 100px;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+#tribute-link{
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #f4d954 ;
+}
+
+#tribute-link:hover{
+    color: #3d2c3f;
+
+}
+
+
+#tribute-info h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 6rem;
+}
+@media screen and (max-width: 800px) {
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+
+    #tribute-info p{
+        padding: 20px;
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+    #image{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #title::before{
+        content: "";
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        height: 20%;
+        background: rgba(229, 57, 53, 100);
+        z-index: -1;
+    }
+
+    #tribute-link{
+        font-size: 3rem;
+    }
+
+  }
