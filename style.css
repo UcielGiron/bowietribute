@@ -57,6 +57,15 @@ p{
     justify-content: center;
 }
 
+#image{
+    width: 100%;
+    height: auto;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #img-caption{
     padding: 0;
     margin: 0;
